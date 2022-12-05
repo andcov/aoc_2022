@@ -1,0 +1,41 @@
+[package]
+name = "aoc_2022"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.7.0"
+
+[[bin]]
+name = "day01_1"
+path = "src/day01_1.rs"
+
+[[bin]]
+name = "day01_2"
+path = "src/day01_2.rs"
+
+[[bin]]
+name = "day02_1"
+path = "src/day02_1.rs"
+
+[[bin]]
+name = "day02_2"
+path = "src/day02_2.rs"
+
+[[bin]]
+name = "day03_1"
+path = "src/day03_1.rs"
+
+[[bin]]
+name = "day03_2"
+path = "src/day03_2.rs"
+
+[[bin]]
+name = "day04_1"
+path = "src/day04_1.rs"
+
+[[bin]]
+name = "day04_2"
+path = "src/day04_2.rs"
