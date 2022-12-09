@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 regex = "1.7.0"
+itertools = "0.10.5"
 
 [[bin]]
 name = "day01_1"
@@ -63,3 +64,15 @@ path = "src/day07_1.rs"
 [[bin]]
 name = "day07_2"
 path = "src/day07_2.rs"
+
+[[bin]]
+name = "day08_1"
+path = "src/day08_1.rs"
+
+[[bin]]
+name = "day08_1_concurrent"
+path = "src/day08_1_concurrent.rs"
+
+[[bin]]
+name = "day08_2"
+path = "src/day08_2.rs"
