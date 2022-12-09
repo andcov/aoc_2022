@@ -76,3 +76,11 @@ path = "src/day08_1_concurrent.rs"
 [[bin]]
 name = "day08_2"
 path = "src/day08_2.rs"
+
+[[bin]]
+name = "day09_1"
+path = "src/day09_1.rs"
+
+[[bin]]
+name = "day09_2"
+path = "src/day09_2.rs"
