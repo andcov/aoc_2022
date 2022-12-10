@@ -1,7 +1,7 @@
 use regex::Regex;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let input = std::fs::read_to_string("input/day10_2.in")?;
+    let input = std::fs::read_to_string("input/day10_1.in")?;
 
     let mut val = 1;
     let add_re = Regex::new(r"addx (-?\d+)")?;
@@ -24,9 +24,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             || (i as i32 - 1) % 40 == vals[i] + 1
             || (i as i32 - 1) % 40 == vals[i] - 1
         {
-            print!("#");
+            print!("##");
         } else {
-            print!(".");
+            print!("  ");
         }
         if i % 40 == 0 {
             println!()
